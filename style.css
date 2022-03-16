@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-size:large; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    background-color: gray;
+}
+a{
+    text-decoration:none;
+}
+
+/* NAV */
+nav{
+    position: sticky;
+    top:0.001px;
+    background-color: green;
+    /* padding: 5px; */
+}
+.aNavegador{
+    font-weight: 600;
+    color: white;
+}
+.aNavegador:hover{
+    color: skyblue;
+}
+.ulNavegador{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    /* justify-content: space-evenly; */
+}
+.ilNavegador{
+    margin: 10px;
+}
+
+/* ARTICULOS */
+.artOriginanles{
+    background-color: lightblue;
+    /* margin: 15px 0 15px 0; */
+    padding: 45px 15px 15px 15px;
+    min-height: 200px;
+    text-align: center;
+    border-top: solid black 1px;
+}
+
+
+/* ARTICULO PODCAST */
+#artSobrePodcast{
+    background-color: #008abe;
+}
+#artSobrePodcast img{
+    height: 400px;
+}
+#pDelPodcast{
+    font-size: large;
+    font-weight: 600;
+}
+#divSobrePodcast{
+    background-color: #00acee;
+    display: flex;
+    border: solid black;
+    margin: 10px;
+    border-radius: 20px;
+}
+#divSobrePodcast div{
+    padding: 10px;
+}
+#divSobrePodcast img{
+    border-radius: 0 15px 15px 0;
+}
+
+
+
+/* ARTICULOS EPISODIOS */
+.divEpisodios{
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: white;
+    /* padding: 15px; */
+
+}
+.divEpisodios:hover{
+    box-shadow: 1px 1px 3px darkslategray;
+    transform: scale(1.01);
+}
+.divEpisodios img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+
+}
+.divEpisodiosGrande{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+/* ARTICULO REDES */
+#artRedes{
+    background-color: #3d4f70;
+}
+#divRedes{
+    display: flex;
+    flex-direction: column;
+}
+.inputRedes{
+    margin: 10px;
+    color:white;
+    text-shadow: 1px 1px 2px grey;
+    /* box-shadow: 2px 2px 5px darkslategray; */
+    font-size: large;
+    font-weight: 600;
+    /* width: 500px; */
+    width: 60%;
+    height: 50px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+.inputRedes:hover{
+    border: none;
+    transform: scale(1.03);
+    cursor:pointer;
+}
+#inputSpotify{
+    background-image: linear-gradient(to right, #1DB954, #2d9952);
+}
+#inputEpisodio{
+    background-image: linear-gradient(to right, #1DB954, #2d9952);
+    box-shadow: 0 0 5px #4f9;
+}
+#inputEpisodio:hover{
+    box-shadow: 0 0 10px rgb(36, 255, 135);
+}
+#inputInstagram{
+    background-image: linear-gradient(to right, #833AB4, #FD1D1D);
+}
+#inputTwiter{
+    background-image: linear-gradient(to right, #00acee, #008abe);    
+}
+#inputDiscord{
+    background-image: linear-gradient(to right, #2c2f33, #23272a);    
+}
+
+/* FOOTER */
+footer{
+    height: 100px;
+    background-color: red;
+}
